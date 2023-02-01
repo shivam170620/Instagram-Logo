@@ -1,0 +1,172 @@
+:root {
+  --insta-color: radial-gradient(
+    circle at 33% 100%,
+    #fed373 4%,
+    #f15245 30%,
+    #d92e7f 62%,
+    #9b36b7 85%,
+    #515ecf
+  );
+}
+
+body {
+  /* background: radial-gradient(
+    circle at 33% 100%,
+    #fed373 4%,
+    #f15245 30%,
+    #d92e7f 62%,
+    #9b36b7 85%,
+    #515ecf
+  ); */
+  /* background-color:; */
+
+  /* background: linear-gradient(to bottom, #ffff00 0%, #cc0066 94%); */
+}
+
+.container {
+  background: radial-gradient(
+    circle at 33% 100%,
+    #fed373 4%,
+    #f15245 30%,
+    #d92e7f 62%,
+    #9b36b7 85%,
+    #515ecf
+  );
+
+  height: 330px;
+
+  width: 330px;
+
+  border-radius: 25%;
+}
+
+.insta-white-div {
+  height: 300px;
+
+  width: 300px;
+
+  border-radius: 25%;
+
+  /* background: linear-gradient(to bottom, #ffff00 0%, #cc0066 94%) */
+
+  background-color: white;
+
+  /* border-color: linear-gradient(to top, #ffff00 70%, #cc0066 50%); */
+
+  justify-content: center;
+
+  position: relative;
+
+  top: 15px;
+
+  left: 5px;
+
+  /* background: radial-gradient(
+    circle at 33% 100%,
+    #fed373 4%,
+    #f15245 30%,
+    #d92e7f 62%,
+    #9b36b7 85%,
+    #515ecf
+  ); */
+
+  margin: 10px;
+
+  /* display: flex;
+
+  justify-content: space-around; */
+}
+
+.inner-div {
+  /* height: 250px;
+
+  width: 250px;
+
+  position: relative;
+
+  top: 5px;
+  left: 5px;
+
+  border: solid 15px white;
+
+  border-radius: 15%;
+
+  color: white; */
+
+  height: 250px;
+
+  background: radial-gradient(
+    circle at 33% 100%,
+    #fed373 4%,
+    #f15245 30%,
+    #d92e7f 62%,
+    #9b36b7 85%,
+    #515ecf
+  );
+
+  width: 250px;
+
+  position: relative;
+
+  left: 25px;
+
+  top: 25px;
+
+  border-radius: 20%;
+
+  /* background-color: pink; */
+}
+
+/* .smaller-circle {
+} */
+
+.inner-div > .smaller-circle {
+  height: 25px;
+
+  width: 25px;
+
+  background-color: white;
+
+  position: absolute;
+
+  left: 210px;
+
+  top: 15px;
+
+  border-radius: 50%;
+}
+
+.inner-div > .mid-c {
+  height: 90px;
+
+  width: 90px;
+
+  /* background-color: pink; */
+
+  position: absolute;
+
+  /* Position absolute is done using the 
+  
+  absolute , if the in the parent positioning is used 
+  
+  absolute positioning will be used here 
+  
+  */
+
+  /* background: radial-gradient(
+    circle at 33% 100%,
+    #fed373 4%,
+    #f15245 30%,
+    #d92e7f 62%,
+    #9b36b7 85%,
+    #515ecf
+  ); */
+
+  left: 65px;
+
+  top: 65px;
+
+  border: solid 15px white;
+
+  border-radius: 50%;
+}
